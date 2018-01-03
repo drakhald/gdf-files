@@ -1,0 +1,10 @@
+D:\Dev\vizprog\vizsga\6\6\bin\Debug\6.exe.config
+D:\Dev\vizprog\vizsga\6\6\bin\Debug\6.exe
+D:\Dev\vizprog\vizsga\6\6\bin\Debug\6.pdb
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\6.csprojResolveAssemblyReference.cache
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\_6.Form1.resources
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\_6.Properties.Resources.resources
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\6.csproj.GenerateResource.Cache
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\6.csproj.CoreCompileInputs.cache
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\6.exe
+D:\Dev\vizprog\vizsga\6\6\obj\Debug\6.pdb
