@@ -1,0 +1,3 @@
+A RAM-ban leírt magyarázatok kimaradtak ebbõl.
+Az ott leírtaknak megfelelõen lehet ezt a feladatot megcsinálni.
+Egy különbséggel, ebben a példában nem muszály a dekóder,mert csak egy kimenete lenne és ha nem muszály, akkor ne is csináljunk. (csak plusz hibaforrás lenne.)
