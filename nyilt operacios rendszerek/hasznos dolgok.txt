@@ -1,0 +1,48 @@
+#Alkalmazás telepítés
+/etc/apt/sources.list
+
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+apt-get install screen mc task-xfce-desktop xdm
+
+Keresés a csomagok között:
+apt-cache search xfce | grep desktop
+
+#Hálózat
+apt-get --purge autoremove network-manager
+
+/etc/network/interfaces
+	auto lo enp0s3 enp0s8 enp0s9
+	iface enps08 inet dhcp
+	iface enps09 inet static
+		address 10.1.2.3
+		netmask 255.255.255.0
+		
+Interfész felkapcsolása
+ifup enp0s8
+
+Interfész letiltása
+ifdown enp0s9
+
+Interfészek listája
+ip addr list
+
+#SSH
+/etc/ssh/sshd_config
+PermitRootLogin no
+DenyUsers root
+
+AllowUsers pista
+DenyUsers all
+
+service ssh restart
+
+#Tűzfal
+iptables -L -n
+iptables -F
+iptables -A INPUT -p tcp -d 10.1.2.3/32 --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j DROP
+
+apt-get install iptables-persistent
+dpkg-reconfigure iptables-persistent
