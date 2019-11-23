@@ -34,7 +34,7 @@ PermitRootLogin no
 DenyUsers root
 
 AllowUsers pista
-DenyUsers all
+DenyUsers *
 
 service ssh restart
 
