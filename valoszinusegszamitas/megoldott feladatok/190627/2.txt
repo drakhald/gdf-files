@@ -1,0 +1,9 @@
+Jó estét Mindenkinek! A 2. feladatra az alábbi megoldásom lenne:
+Hipergeometrikus eloszlás
+40 autónak a 80%-a =32, tehát ezeknek van valamilyen sérülésük
+N= 40
+n= 4
+M=32
+k=0,1
+
+P(khszi<=1) = (32alatt0)*(8alatt4)+(32alatt1)*(8alatt3)/(40alatt4)

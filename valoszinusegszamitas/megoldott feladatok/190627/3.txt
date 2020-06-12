@@ -1,0 +1,7 @@
+A 3. feladatra az alábbi megoldásom lenne:
+Normális eo.
+m=30
+szórás=0,5
+P(29,5<khszi<30,5) = F(30,5)-F(29,5)
+nagyfi( (30,5-30)/0,5) - nagyfi((29,5-30)/0,5) = nagyfi(1)-nagyfi(-1) = nagyfi(1) - (1-nagyfi(1)) =
+nagyfi(1)+nagyfi(1)-1= (2*0,8413)-1= 0,68
