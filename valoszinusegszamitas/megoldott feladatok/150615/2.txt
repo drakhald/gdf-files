@@ -1,0 +1,3 @@
+Tobbseg legyen regeny akkor 2 eset lehet sztem, 3 regeny van es 1 verses kotet VAGY 4 regeny es 0 verses kotet
+
+((5 alatt 3) * (2 alatt 1) ) / ( 7 alatt 4) + ((5 alatt 4) * (2 alatt 0) ) / ( 7 alatt 4)
