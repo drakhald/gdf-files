@@ -1,0 +1,16 @@
+nem akartam 1 perce kiszámolni...
+
+legyen kszí a felszállók száma 5 perc alatt; 0,1,2...
+
+tehát Poisson eo.
+
+adott vsz: P(kszí=0), ami lambda^0/0!*e^(-lambda) az eo. esetén és ez = e^(-6)
+
+ebből lambda=6 (de ez az 5 perc alatt felszállók száma)
+
+a) mennyi a várható felszálló 10 perc alatt? ami 2*5 perc alatti... miután az eo. várh.értéke pont lambda.
+10 * lambda (1,2) = 12 
+
+de a b) esetben a kérdés a 15 perchez tartozó lambdát is igényli...és kell a
+
+P(kszí=31 vagy kszí=32 vagy kszí=33)
