@@ -1,0 +1,37 @@
+a norm eo. v.v. a naponta eladott KV-k száma, legyen éta
+a várh. érték adott: M(éta)= 80
+de a szórás nem; helyette adott egy esemény vsz-e... P(éta<60)=0,04
+ez egy egyenlet... ki fog jönni a szigma.
+A kérdés: P(éta>100)=?
+norm eo. P(éta<x)=F(x), ami csak standardizálás után számolható, igaz?
+
+
+
+
+
+
+
+1-0,04=0,96 
+a 0,96-t a táblázatban a 1,75-ön veszi fel 
+így a szigma 11,43 lesz 
+
+
+P(éta>100)=?
+
+1-P(éta<100)=?
+
+nagyfi(100-80/szigma)
+
+nagyfi(20/11,43)
+
+nagyfi(1,75)
+
+1-0,96=0,04
+
+
+---
+vagyis nincs benne 0.5 alatti fgv.érték. vlmi 0 előtti helyen fog ennyit felvenni...
+ezért mit kell tenni? haszn. kell a köv. öfüggést: FÍ(-x)=1-FÍ(+x)
+le kell ám írni: FÍ(-(60-80)/szigma)=1-0,04
+
+tehát már a (80-60)/szigma lesz az a hely, amiben a nagyfí 0,96-ot vesz fel.

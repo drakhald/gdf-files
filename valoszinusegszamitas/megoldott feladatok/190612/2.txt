@@ -1,0 +1,11 @@
+P(kszí 1 nap alatt 2 autót adnak el )=?
+7 nap alatt eladott autók értéke 7*lambda=2,1
+M(kszí)=lambda=0,3
+P(kszí=2) = 0,32/2! e-0,3
+
+----
+majdnem teljesen jó... az 1. sor nem tetszik csak
+a kszí tehát az 1 nap alatt eladot tautók száma, vagyis Poisson.eo. v.v.
+ennek várh. értéke M(kszí)=lambda, de lambda az 1 hét átlagából valóban átszámolandó
+a kérdés ez: P(kszí=2)
+és a behelyettesítés helyes!

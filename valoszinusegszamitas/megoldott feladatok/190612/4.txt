@@ -1,0 +1,11 @@
+n=20
+M( hibák száma 1 műszakban )=3,3 -- vagyis m0=3,3
+ 1-0,90=0,10 -- ez az epszilon...
+szórás =1,1 -- ez a rendes szigma (nem a mintából vett tapasztalati)
+kszí átlag=(4*0)+(4*1)+(2*2)+(3*3)+(3*5)+(4*7) /20 --  aszámlálónak()ben kellene lenni, h az egészet osszuk 20-szal (nekem pont 3,0 de mindegy)
+Usz= gyökalatt (n) * (kszí átlag- m0)/szórás -- tehát u-próba kell!
+
+Usz= gyökalatt20 *(2,8-3,3)/1,1= -0,4545
+
+nagy fí (U) =1- 0,10/2= 0,45 táblázat>0,6736 -- nem jó; nagyfí(u)=0,95...ami u_táblázatbeli=1,65ben annyi
+Usz =-0,4545 < Un =0,6736 tehát elfogadjuk -- a következtetés jó, de az u_számított abszolut értékének ell kisebbnek lennie a táblázetbeli u-nál!
