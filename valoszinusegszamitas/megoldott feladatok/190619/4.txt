@@ -1,0 +1,17 @@
+szórás=1,6
+n=20
+Epszilon=0,01
+
+átlag=((4*0)+(2*1)+(2*2)+(2*3)+(8*5)+(2*7))/20
+átlag=3,3
+
+nagyszigma(Ue)=1-(epszilon/2) => 1-(0,01/2)=0,995
+nagyszigma(Ue)=0,995
+Ue=2,58
+
+Konfidencia intervallum meghatározása:
+
+(átlag-Ue*szórás/gyök alatt az n,átlag+Ue*szórás/gyök alatt az n)
+(3,3-2,58*1,6/gyök20 , 3,3+2,58*1,6/gyök20)
+(2,377,4,223)
+A konfidencia intervallum 99%-os valószínüséggel a (2,377,4,223) intervallumon várható értéket veheti fel. 
